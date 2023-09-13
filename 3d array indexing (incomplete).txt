@@ -1,0 +1,12 @@
+3D array indexing:
+
+-Select a single 2D "sheet": (array[x])
+
+-Select a single element: (array[x])[row][coloumn]
+
+-Select a whole single column: (array[x])[:, column]
+
+-Select a whole single row: (array[x])[row ,:]
+
+
+
