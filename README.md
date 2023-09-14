@@ -1,1 +1,5 @@
 # ukaea_rnn_pinn
+
+
+This internship was focused on analysing virtual components which is based on the work at the CHIMERA facility. The first task was to interpolate points of a 3D blocks; increase the density of coordinates, displacement and pressure data. Thereafter I would perform Machine Learning on displacement and pressure data time series. In other words, I had to predict the displacement and pressure over a certain number of timesteps. My focus then shifted towards a more domain of a 2D rectangle where I also performed ML but this time with just temperature data. The rectangle consisted of 2 materials joined together with a ‘fork’ looking domain. One material was insulative and the other was conductive (e.g., glass and copper). The conductive material would heat up the insulative one.
+The next task was to create a Physics Informed Neural Network (PINN) that would predict the temperature distribution without needing any data. I compare the two results and conclude which is a better method to utilise based on computing power usage, time taken, accuracy of result, amount of data needed etc. 
